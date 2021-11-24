@@ -2,6 +2,7 @@ var canvas = document.getElementById("canvas");
 var ctx = canvas.getContext("2d");
 ctx.strokeStyle = "#000000";
 ctx.lineWith = 2;
+let firma;
 
 // Set up mouse events for drawing
 var drawing = false;
